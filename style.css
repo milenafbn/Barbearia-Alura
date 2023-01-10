@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.sobre {
+    background-color: rgb(196, 196, 196);
+    padding: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.tituloCentralizado{
+    text-align: center;
+}
+#banner {
+    text-align: center;
+    width: 100%;
+}
+
+#beneficios{
+    width: 50%;
+    
+}
+
+h1 {
+    margin: 20px;
+}
+
+em strong { /* quero modificar apenas o <strong> que ta dentro do <em> */
+    color: red;
+}
+
+#atendimento {
+    color: blue;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top; /*normalmente é pra baixo (não sei explicar...melhor tirar isso pra ver a diferença no site*/
+    width: 20%;
+    margin-right: 15%;
+}
